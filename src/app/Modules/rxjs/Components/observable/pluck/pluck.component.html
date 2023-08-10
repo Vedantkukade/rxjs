@@ -1,0 +1,48 @@
+<div class="container">
+    <h2>Pluck</h2>
+    <br>
+    <hr>
+    <div class="row">
+        <div class="col-md-4">
+            <strong>Ex -01</strong>
+            <hr>
+            <p class="bg-light border rounded py-2 px-3">
+                <strong>Pluck :</strong>By Property
+            </p>
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr *ngFor="let x of names">
+                    <td>{{x}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <strong>Ex -02</strong>
+            <hr>
+            <p class="bg-light border rounded py-2 px-3">
+                <strong>Pluck :</strong>By Nested Property
+            </p>
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr *ngFor="let x of names">
+                    <td>{{x}}</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="col-md-4">
+            <strong>Ex -03</strong>
+            <hr>
+            <p class="bg-light border rounded py-2 px-3">
+                <strong>Pluck :</strong>Object Data
+            </p>
+            <ul id="elcontainer">
+
+            </ul>
+        </div>
+    </div>
+</div>

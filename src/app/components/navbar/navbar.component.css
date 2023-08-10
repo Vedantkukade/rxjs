@@ -1,0 +1,9 @@
+.navbar-brand{
+    margin-left: 100px;
+}
+
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
